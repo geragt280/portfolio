@@ -1,37 +1,8 @@
 import React from 'react'
 
 export default function InformationContainer() {
-    const downloadCV = () => {
-        fetch('src/component/MuhammadBilalKhanCV.pdf', {
-            method: 'GET',
-            headers: {
-            'Content-Type': 'application/pdf',
-            },
-        })
-        .then((response) => {response.blob(); console.log("api response:",response);})
-        .then((blob) => {
-            // Create blob link to download
-            const url = window.URL.createObjectURL(
-            new Blob([blob]),
-            );
-            console.log("url made:", url);
-            const link = document.createElement('a');
-            link.href = url;
-            link.setAttribute(
-            'download',
-            `CV BilalKhan.pdf`,
-            );
-
-            // Append to html link element page
-            document.body.appendChild(link);
-
-            // Start download
-            link.click();
-
-            // Clean up and remove the link
-            link.parentNode.removeChild(link);
-        });
-    }
+    
+    
     return (
         <div>
           <p className='headingName'>Muhammad Bilal Khan</p>
