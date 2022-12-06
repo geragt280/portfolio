@@ -82,6 +82,7 @@
 }
 .informationButtonsContainer p a{
   text-decoration: none;
+  color: inherit;
 }
 .informationButtonsContainer span{
   cursor: pointer;
@@ -96,6 +97,7 @@
 }
 .informationButtonsContainer span:hover{
   background-color: white;
+  color:#0E0724 !important;
   transition: 0.3s;
 }
 .informationButtonsContainer span:hover .sideHorizontalLine{
@@ -105,7 +107,8 @@
 }
 .informationButtonsContainer span:hover p{
   transition: 0.3s;
-  color:#0E0724;
+  color:#0E0724 !important;
+  text-decoration: none;
 }
 .informationButtonsContainer span .sideHorizontalLine{
   height: 1px;
