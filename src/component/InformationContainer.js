@@ -1,17 +1,42 @@
-import React from 'react'
+import React, { useContext, useEffect } from "react";
+import PersonalDetails from "./PersonalDetails";
+import Experience from "./Experience";
+import { MyContext } from "../App";
 
 export default function InformationContainer() {
-    
-    
-    return (
-        <div>
-          <p className='headingName'>Muhammad Bilal Khan</p>
-          <p className='headingProfession'>Front-end/JavaScript Developer</p>
-          <p className='descriptionText'>Hi, I have almost 2 years of professional development experiance.<br/> I develop what you desire.</p>
-          <div className='informationButtonsContainer'>
-            <span><div className='sideHorizontalLine'></div><p><a href='./files/MuhammadBilalKhanCV.pdf' download >Download CV</a></p></span>
-            <span><div className='sideHorizontalLine'></div><p>Experience</p></span>
-          </div>
+  const { showItem, setShowItem } = useContext(MyContext);
+  const [isAnimating, setIsAnimating] = React.useState(false);
+
+  useEffect(() => {
+    console.log("I got changed");
+    setIsAnimating(true);
+    const timeout = setTimeout(() => {
+      setIsAnimating(false);
+    }, 0);
+    return () => clearTimeout(timeout);
+  }, [showItem]);
+
+  const toggleAnimation = (compName) => {
+    setTimeout(() => {
+      setShowItem(compName);
+    }, 500);
+    setIsAnimating(!isAnimating);
+  };
+
+  return (
+    <div>
+      {showItem === "Personal" && (
+        <div
+          className={` fade-animation-${isAnimating ? "fadeOut" : "fadeIn"}`}
+        >
+          <PersonalDetails changeAnimation={toggleAnimation} />
         </div>
-    )
+      )}
+      {showItem === "Experience" && (
+        <div className={`fade-animation-${isAnimating ? "fadeOut" : "fadeIn"}`}>
+          <Experience changeAnimation={toggleAnimation} />
+        </div>
+      )}
+    </div>
+  );
 }

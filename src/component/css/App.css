@@ -23,7 +23,6 @@
   padding: 0px;
 }
 .headingName{
-  font-size: large;
   font-size: 50px;  
   font-family: 'Courier New', monospace ;
 }
@@ -123,6 +122,40 @@
   position: absolute;
   z-index: 0;
 }
+.exp_heading{
+  font-size: 50px;
+  font-weight: 100;  
+  font-family: 'Courier New', monospace ;
+}
+.active_comp{
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.fade-animation-fadeOut{
+  opacity:0;
+  transition: width 0.2s 0.2s, height 0.2s 0.2s, opacity 0.2s;
+}
 
+.fade-animation-fadeIn{
+  opacity:1;
+  transition: width 0.2s, height 0.2s, opacity 0.5s 0.2s;
+}
 
+/* Experience component styling below */
+
+.exp-point {
+  margin-top:10px;
+  margin-bottom:10px;
+  padding: 10px;
+  border: 1px;
+  border-color: #ffff;
+  border-style: solid;
+}
+.exp-point:hover {
+  cursor: pointer;
+  color: #0E0724;
+  background-color: #ffff;
+}
 

@@ -14,9 +14,9 @@ export default function NavContent() {
             <ul>
               <li><FontAwesomeIcon icon={faHome} size='lg' /></li>
               <li>Work</li>
-              <li>Profile</li>
+              <li><a href="https://www.linkedin.com/in/bilal-khan-32853a1bb/" rel="noreferrer" target='_blank'>LinkedIn</a></li>
               <li>Skills</li>
-              <li>Contact</li>
+              <li><a href="mailto:bilalkhan.work786@gmail.com">Contact Me</a></li>
             </ul>
           </div>
         </div>
