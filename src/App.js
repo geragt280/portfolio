@@ -32,7 +32,7 @@ export default function App() {
           </div>
           <div className="nav_bar_container" onClick={() => collapseFunction()}>
             <NavContent />
-          </div>
+          </div> 
         </div>
         <BackgroundParticles />
       </div>

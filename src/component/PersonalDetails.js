@@ -7,7 +7,7 @@ export default function PersonalDetails({changeAnimation}) {
         <div>
           <p className='headingName'>Muhammad Bilal Khan</p>
             <p className='headingProfession'>Front-end/JavaScript Developer</p>
-          <p className='descriptionText'>Hi, I have almost 3 years of professional development experiance.<br/> I develop what you desire.</p>
+          <p className='descriptionText'>Hi, I have currently 3 years of professional development experiance.<br/> I develop what you desire.</p>
         </div>
         <div className='informationButtonsContainer'>
             <span><div className='sideHorizontalLine'></div><p><a href='./files/MuhammadBilalKhanCV.pdf' download >Download CV</a></p></span>
