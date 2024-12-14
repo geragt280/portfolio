@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from "react";
 import PersonalDetails from "./PersonalDetails";
-import Experience from "./Experience";
 import { MyContext } from "../App";
 
 export default function InformationContainer() {
@@ -25,18 +24,9 @@ export default function InformationContainer() {
 
   return (
     <div>
-      {showItem === "Personal" && (
-        <div
-          className={` fade-animation-${isAnimating ? "fadeOut" : "fadeIn"}`}
-        >
-          <PersonalDetails changeAnimation={toggleAnimation} />
-        </div>
-      )}
-      {showItem === "Experience" && (
-        <div className={`fade-animation-${isAnimating ? "fadeOut" : "fadeIn"}`}>
-          <Experience changeAnimation={toggleAnimation} />
-        </div>
-      )}
+      <div className={`fade-animation-fadeIn`}>
+        <PersonalDetails changeAnimation={toggleAnimation} />
+      </div>
     </div>
   );
 }

@@ -1,89 +1,119 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
-  /* background-color: #0E0724; */
   color: #ffff;
 }
-.mainBody{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+
+#navigator {
+  width: inherit;
+  position: relative;
+}
+
+.nav_bar_container ul {
+  width: 100%;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.nav_bar_container li {
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.nav_bar_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+  height: 110px;
+}
+
+.mainBody {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.container_middle{
+
+.container_middle {
   position: relative;
   display: flex;
   padding: 0px;
-  z-index: 1;
   justify-content: space-between;
-  background-color: rgba(100, 100, 100, 0.0);
+  background-color: rgba(100, 100, 100, 0);
 }
-.information_container{
-  margin: 310px 0px 50px 130px;
+
+.information_container {
+  margin: 200px 0px 50px 130px;
   padding: 0px;
 }
-.headingName{
-  font-size: 50px;  
-  font-family: 'Courier New', monospace ;
+
+.headingName {
+  font-size: 50px;
+  font-family: "Courier New", monospace;
 }
-.headingProfession{
+
+.headingProfession {
   font-size: large;
-  font-size: 50px;  
-  font-family: 'Courier New', monospace ;
+  font-size: 50px;
+  font-family: "Courier New", monospace;
 }
-.descriptionText{
+
+.descriptionText {
   margin: 10px 0px 10px 0px;
   width: 80%;
   font-size: 20px;
   font-weight: 100;
 }
+
 .x-button-container {
   display: inline-block;
   margin: 40px;
-  background-color: rgba(100, 100, 100, 0.0);
+  background-color: rgba(100, 100, 100, 0);
 }
-.bar1, .bar2, .bar3 {
+
+.bar1,
+.bar2,
+.bar3 {
   width: 30px;
   height: 2px;
   background-color: rgb(255, 255, 255);
   margin: 6px;
   transition: 0.4s;
 }
+
 .changeMenuStyle .bar1 {
   -webkit-transform: rotate(-45deg) translate(-8px, 8px);
   transform: rotate(-45deg) translate(-4px, 8px);
 }
-.changeMenuStyle .bar2 {opacity: 0;}
+
+.changeMenuStyle .bar2 {
+  opacity: 0;
+}
+
 .changeMenuStyle .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-4px, -8px);
 }
-.nav_bar_container ul{
-  margin-top: 10px;
-}
-.nav_bar_container li{
-  list-style-type: none;
-  height: 30px;
-  padding-top: 10px;
-  padding-bottom: 0px;
-}
-.nav_bar_container{
-  cursor: pointer;
-  text-align: center;
-  height: 110px;
-  /* background-color: aliceblue; */
-  background-color: rgba(100, 100, 100, 0.1);
 
-}
-.informationButtonsContainer{
+.informationButtonsContainer {
   margin: 50px 0px 0px 0px;
-  display: flex;  
+  display: flex;
 }
-.informationButtonsContainer p a{
+
+.informationButtonsContainer p a {
   text-decoration: none;
   color: inherit;
 }
-.informationButtonsContainer span{
+
+.informationButtonsContainer span {
   cursor: pointer;
   border: 1px solid gray;
   font-weight: 100;
@@ -94,22 +124,26 @@
   -webkit-transition: 0.3s;
   /* background-color: #0E0724; */
 }
-.informationButtonsContainer span:hover{
+
+.informationButtonsContainer span:hover {
   background-color: white;
-  color:#0E0724 !important;
+  color: #0e0724 !important;
   transition: 0.3s;
 }
-.informationButtonsContainer span:hover .sideHorizontalLine{
+
+.informationButtonsContainer span:hover .sideHorizontalLine {
   transition: 0.3s;
   margin: 10px 0px 0px -20px;
   background-color: white;
 }
-.informationButtonsContainer span:hover p{
+
+.informationButtonsContainer span:hover p {
   transition: 0.3s;
-  color:#0E0724 !important;
+  color: #0e0724 !important;
   text-decoration: none;
 }
-.informationButtonsContainer span .sideHorizontalLine{
+
+.informationButtonsContainer span .sideHorizontalLine {
   height: 1px;
   position: absolute;
   background-color: gray;
@@ -118,44 +152,52 @@
   border: 0px solid gray;
   -webkit-transition: 0.3s;
 }
-.particles-background{
+
+.particles-background {
   position: absolute;
   z-index: 0;
 }
-.exp_heading{
+
+.exp_heading {
   font-size: 50px;
-  font-weight: 100;  
-  font-family: 'Courier New', monospace ;
+  font-weight: 100;
+  font-family: "Courier New", monospace;
 }
-.active_comp{
+
+.active_comp {
   height: 300px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
-.fade-animation-fadeOut{
-  opacity:0;
+
+.fade-animation-fadeOut {
+  opacity: 0;
   transition: width 0.2s 0.2s, height 0.2s 0.2s, opacity 0.2s;
 }
 
-.fade-animation-fadeIn{
-  opacity:1;
+.fade-animation-fadeIn {
+  opacity: 1;
   transition: width 0.2s, height 0.2s, opacity 0.5s 0.2s;
 }
 
 /* Experience component styling below */
 
 .exp-point {
-  margin-top:10px;
-  margin-bottom:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   border: 1px;
   border-color: #ffff;
   border-style: solid;
 }
+
 .exp-point:hover {
   cursor: pointer;
-  color: #0E0724;
+  color: #0e0724;
   background-color: #ffff;
 }
 
+.experience {
+  position: relative;
+}
