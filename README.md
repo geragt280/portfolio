@@ -1,71 +1,66 @@
-The application is Personal Portfolio created for work information.
-# Getting Started with Create React App
+# 🚀 Muhammad Bilal Khan | Senior Full-Stack Engineer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the repository of my interactive developer portfolio website. This project is a modern, responsive single-page application built with React, showcasing my credentials, work timeline, and technical expertise through retro-futuristic styling and animations.
 
-## Available Scripts
+🌐 **Live Demo:** [https://portfoliobilalmkhan.netlify.app/](https://portfoliobilalmkhan.netlify.app/)
+
+---
+
+## ✨ Features
+
+- **Futuristic Interactive Terminal**: A simulated CLI command console on the Skills page that dynamically prints status updates, script executions, and detailed sub-skills as you select categories.
+- **SVG Skateboarder Animation**: A custom CSS+SVG animated skateboarding character on the Experience page that rides along a tracking line.
+- **Holographic Floating CTA**: An interactive speech bubble button hovering near the skateboarder directing visitors to your skills.
+- **Clean Work History Timeline**: A beautifully formatted vertical professional experience timeline with glassmorphic cards and bulleted summaries.
+- **Particle Grid Backdrop**: Interactive particle arrays moving across a deep navy/purple space gradient background.
+- **Fully Responsive**: Out-of-the-box optimized rendering across Desktop ($1200\text{px}+$ width), Tablet ($768\text{px}$ width), and Mobile ($375\text{px}$ width) devices.
+
+---
+
+## 🛠️ Tech Stack & Concepts
+
+- **Frontend Core**: React.js (v17), JavaScript (ES6+), React Router DOM (v6)
+- **Styling**: Vanilla CSS3, Glassmorphism, CSS Keyframe Animations
+- **Icons**: FontAwesome Icons (SVG-based)
+- **Visuals**: React tsParticles (background simulation), custom SVG vectors
+- **Testing & Quality**: Selenium Firefox webdriver regression checks
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally on your machine, follow these instructions:
+
+### Prerequisites
+
+Make sure you have **Node.js** (v16+) and **npm** installed on your system.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/geragt280/portfolio.git
+   cd portfolio
+   ```
+
+2. Install the project dependencies:
+   ```bash
+   npm install
+   ```
+
+### Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000). The browser page will reload automatically if you edit the code.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### `npm run build`
+Compiles and bundles the application into optimized static assets inside the `build` folder, ready for production deployment on platforms like Netlify or Vercel.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📬 Contact & Connections
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Email**: [bilalkhan.work786@gmail.com](mailto:bilalkhan.work786@gmail.com)
+- **LinkedIn**: [linkedin.com/in/bilal-khan-32853a1bb/](https://www.linkedin.com/in/bilal-khan-32853a1bb/)
