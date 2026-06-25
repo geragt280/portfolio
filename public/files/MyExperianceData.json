@@ -1,14 +1,65 @@
 {
-    "experiance": {
-        "languages": [
-            "C#", "Java", "Javascript", "Microsoft 365", "React"
-        ],
-        "descriptions": [
-            "Worked on console app, form, web forms, asp.net and asp.net MVC platforms. Having command of famous language like C# gave me advantage to understand many other languages easily  and in microsoft field this is an esential point everywhere.",
-            "Sole purpose of learning this language was to work on mobile app developement for android created many responsive and stylish app with great friendly UI and evironment.",
-            "This one was my favorite so far as it helped me achieve many goals whereever I went in software development having knowledge of its frameworks is also a blessing and working on them give the joy to create the best platform for a client.",
-            "This is not particularly a language and many of you will think why I even added it here but the thing is I came and saw that you can develop almost all kind of software that the clients need these days. Each and every platform inside it is capable to make a to the specific application for your need weather its a web app, mobile app, desktop app or even backend handling is quite easy using this platform.",
-            "I am not a typical kind of react developer who works on ecommerce website and perform a same kind of thing for customers I create custom webparts for sharepoint site collection which are called SPFX webpart which are created on React(Typescript) and requirs quite extensive knowledge of Typescript as well as Javascript."
-        ]
+  "profile": {
+    "name": "Muhammad Bilal Khan",
+    "title": "Senior Full-Stack Engineer | React & Scalable Systems Specialist",
+    "summary": "Results-driven Senior Full-Stack Engineer with 4.5+ years of experience building scalable web, mobile, and enterprise systems. Strong expertise in React-based frontend development, component-driven UI architecture, and state management using Redux and Context API. Equally experienced in backend engineering with Node.js, Golang, Dockerized deployments, Azure AD integrations, and enterprise API ecosystems (Dynamics 365, SharePoint, Workato). Focused on performance, modular design, and delivering secure, high-quality software solutions across full lifecycles."
+  },
+  "experiences": [
+    {
+      "role": "Software Engineer (Backend Systems & Integrations)",
+      "company": "Santex Pvt. Ltd.",
+      "period": "Sept 2024 – Present",
+      "points": [
+        "Developed and maintained Shopify sales channel applications for merchant onboarding and product synchronization.",
+        "Built and managed Node.js and Go-based backend servers across multiple environments ensuring reliability and performance.",
+        "Integrated Microsoft Dynamics 365, SharePoint, Power Platform and Workato for enterprise workflow automation.",
+        "Oversaw full-stack lifecycle management from architecture to production monitoring.",
+        "Collaborated with cross-functional teams to deliver scalable and secure solutions."
+      ]
+    },
+    {
+      "role": "Senior MERN Stack Developer",
+      "company": "Mac World Technology",
+      "period": "Feb 2024 – Aug 2024",
+      "points": [
+        "Led development of scalable React and Node.js applications.",
+        "Designed responsive UI using Ant Design and Material-UI (MUI).",
+        "Implemented Redux and Context API for centralized state management.",
+        "Architected scalable application structures and database schemas.",
+        "Mentored developers and conducted code reviews to improve standards.",
+        "Collaborated with designers and stakeholders to build interactive UI experiences."
+      ]
+    },
+    {
+      "role": "Mid-Level MERN Stack Developer",
+      "company": "Slickwhiz Solutions",
+      "period": "2022 – 2024",
+      "points": [
+        "Developed modular React components ensuring scalable and reusable UI architecture.",
+        "Built responsive dashboards using Ant Design and Material-UI.",
+        "Managed application states using Redux and Context API.",
+        "Integrated REST APIs and optimized frontend performance.",
+        "Developed SharePoint sites and implemented Power Apps and Power Automate workflows.",
+        "Implemented backend testing using Jest to improve reliability.",
+        "Collaborated directly with clients to deliver tailored business solutions."
+      ]
+    },
+    {
+      "role": "Intern / Junior Software Developer",
+      "company": "Regex Dot Global",
+      "period": "2021 – 2022",
+      "points": [
+        "Practiced Android Native Development (Java) and UI implementation principles.",
+        "Supported senior developers in building and testing web and mobile applications."
+      ]
     }
+  ],
+  "skills": {
+    "Frontend": ["React.js", "Next.js", "Vue.js", "JavaScript (ES6+)", "DOM Manipulation", "Ant Design", "Material-UI (MUI)", "Redux", "Context API", "Responsive UI Development"],
+    "Backend": ["Golang (Go)", "Node.js", "Express.js", ".NET (C#)", "REST API Development", "Jest (Backend Testing)"],
+    "Databases": ["MongoDB", "SQL Server", "MySQL", "PostgreSQL", "Firebase", "Microsoft Dataverse"],
+    "Cloud & Integrations": ["Office 365", "SharePoint", "Dynamics 365", "Workato", "Azure AD"],
+    "Infrastructure": ["Docker", "NGINX", "Linux Server Management"],
+    "DevOps & VCS": ["Git", "Shell Scripting", "Deployment Automation"]
+  }
 }

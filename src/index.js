@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./screens/Error";
 import { Home } from "./screens/Home";
 import Experiance from "./screens/Experiance";
+import Skills from "./screens/Skills";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/experience",
         element: <Experiance />,
+      },
+      {
+        path: "/skills",
+        element: <Skills />,
       },
     ],
   },
