@@ -9,7 +9,7 @@ export default function PersonalDetails() {
         <p className="headingName">Muhammad Bilal Khan</p>
         <p className="headingProfession">Senior Full-Stack Engineer</p>
         <p className="descriptionText">
-          Results-driven Senior Full-Stack Engineer with 4.5+ years of experience building scalable web, mobile, and enterprise systems. Specializing in React, Node.js, and Golang.
+          Performance-driven Senior Full-Stack Engineer with over 7.5 years of comprehensive experience engineering resilient web architectures, enterprise backends, and mobile systems. Specializing in React, Node.js, Golang, and .NET (C#).
         </p>
       </div>
       <div className="informationButtonsContainer">

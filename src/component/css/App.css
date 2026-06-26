@@ -499,6 +499,7 @@ body {
 .node-4 { animation: float 6s ease-in-out infinite; animation-delay: 3.6s; }
 .node-5 { animation: float 6s ease-in-out infinite; animation-delay: 4.8s; }
 .node-6 { animation: float 6s ease-in-out infinite; animation-delay: 5.4s; }
+.node-7 { animation: float 6s ease-in-out infinite; animation-delay: 6.0s; }
 
 @keyframes float {
   0%, 100% {
